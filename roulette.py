@@ -19,7 +19,7 @@ def Play():
         print(Fore.RED + Style.BRIGHT + 'You Lost! The winning number is ' + number)
 
 Retry = 'Yes'
-while Retry == 'Yes':
+while Retry == 'Yes' or Retry == 'y':
     Play()
 
     print(Fore.WHITE + Style.BRIGHT + 'Do you want to play again ? (Yes or No)')
