@@ -7,7 +7,7 @@ def Play():
     selectNum = input()
 
     if int(selectNum) > 36:
-        print('Invalid, re-enter number from 0 to 36')
+        print('Invalid number entered')
 
     elif int(selectNum) == number:
         number = str(number)
